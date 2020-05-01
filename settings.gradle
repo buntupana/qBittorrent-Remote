@@ -1,2 +1,4 @@
-include ':app'
+include ':phone'
 rootProject.name='qBittorrent Remote'
+include ':data'
+include ':domain'
