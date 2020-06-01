@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" group="qBittorrent Remote/data" />
       <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" group="qBittorrent Remote/domain" />
       <module fileurl="file://$PROJECT_DIR$/phone/phone.iml" filepath="$PROJECT_DIR$/phone/phone.iml" group="qBittorrent Remote/phone" />
-      <module fileurl="file://$PROJECT_DIR$/qBittorrent Remote.iml" filepath="$PROJECT_DIR$/qBittorrent Remote.iml" group="qBittorrent Remote" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/qBittorrent_Remote.iml" filepath="$PROJECT_DIR$/.idea/modules/qBittorrent_Remote.iml" group="qBittorrent_Remote" />
     </modules>
   </component>
 </project>

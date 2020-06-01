@@ -36,7 +36,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.core:core-ktx:1.2.0'
+    implementation "androidx.core:core-ktx:$ktxVersion"
 
     // Room
     kapt "androidx.room:room-compiler:$roomVersion"
@@ -46,6 +46,7 @@ dependencies {
     // Networking
     implementation "com.squareup.retrofit2:retrofit:$retrofit"
     implementation "com.squareup.retrofit2:converter-moshi:$retrofit"
+    implementation "com.github.akarnokd:rxjava3-retrofit-adapter:3.0.0"
     implementation "com.squareup.okhttp3:okhttp:$okhttp"
     implementation "com.squareup.okhttp3:logging-interceptor:$okhttp"
 
